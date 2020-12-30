@@ -1,0 +1,19 @@
+0 silly argv {
+0 silly argv   _: [ 'create' ],
+0 silly argv   yes: true,
+0 silly argv   y: true,
+0 silly argv   lernaVersion: '3.22.1',
+0 silly argv   '$0': 'lerna',
+0 silly argv   name: '@nciocpl/ncids'
+0 silly argv }
+1 notice cli v3.22.1
+2 verbose rootPath /Users/pauarce/git/component-library-react
+3 error Error: Command failed: git config --get user.name
+3 error
+3 error
+3 error     at makeError (/Users/pauarce/.nvm/versions/node/v14.15.3/lib/node_modules/lerna/node_modules/execa/index.js:174:9)
+3 error     at Function.module.exports.sync (/Users/pauarce/.nvm/versions/node/v14.15.3/lib/node_modules/lerna/node_modules/execa/index.js:338:15)
+3 error     at Object.execSync (/Users/pauarce/.nvm/versions/node/v14.15.3/lib/node_modules/lerna/node_modules/@lerna/child-process/index.js:26:16)
+3 error     at CreateCommand.gitConfig (/Users/pauarce/.nvm/versions/node/v14.15.3/lib/node_modules/lerna/node_modules/@lerna/create/index.js:181:34)
+3 error     at CreateCommand.initialize (/Users/pauarce/.nvm/versions/node/v14.15.3/lib/node_modules/lerna/node_modules/@lerna/create/index.js:103:46)
+3 error     at /Users/pauarce/.nvm/versions/node/v14.15.3/lib/node_modules/lerna/node_modules/@lerna/command/index.js:272:24
