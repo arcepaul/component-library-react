@@ -1,7 +1,7 @@
 {
   "name": "component-library-react",
   "version": "1.0.0",
-  "description": "",
+  "description": "NCI design system component library for use with react-based applications and projects",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -9,7 +9,23 @@
   "keywords": [],
   "author": "",
   "license": "ISC",
+  "dependencies": {
+    "react": "17.0.1",
+    "react-dom": "17.0.1"
+  },
   "devDependencies": {
-    "lerna": "^3.22.1"
+    "@babel/core": "7.12.10",
+    "@babel/preset-env": "7.12.11",
+    "@babel/preset-react": "7.12.10",
+    "autoprefixer": "^10.1.0",
+    "babel-loader": "^8.2.2",
+    "cross-env": "^7.0.3",
+    "css-loader": "^5.0.1",
+    "lerna": "^3.22.1",
+    "node-sass": "^5.0.0",
+    "postcss-loader": "^4.1.0",
+    "sass-loader": "^10.1.0",
+    "webpack": "5.11.1",
+    "webpack-cli": "4.3.0"
   }
 }

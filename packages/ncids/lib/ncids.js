@@ -1,7 +1,4 @@
-'use strict';
+import {Banner} from '@nciocpl/ncids-banner';
+import {SummaryBox} from '@nciocpl/ncids-summary-box';
 
-module.exports = ncids;
-
-function ncids() {
-    // TODO
-}
+export {Banner, SummaryBox};
